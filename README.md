@@ -3,15 +3,15 @@
 
 ## O projeto ( ⚠️ em andamento - conclusão parcial finalizada ⚠️ )<p id="projeto"></p>
 
-Este projeto fictício que compõe o meu portfólio profissional busca criar uma solução de negócio que auxiliará o governo do condado King, localizado no estado de Washington, USA a tomar melhores decisões relativas ao processo de desapropriação de imóveis que possam serem diretamente impactados por novos projetos de infraestrutura governamentais.
+Este projeto fictício que compõe o meu portfólio profissional busca criar uma solução de negócio que auxiliará o governo do condado King, localizado no estado de Washington, USA a tomar melhores decisões relativas ao processo de desapropriação de imóveis que possam ser diretamente impactados por novos projetos de infraestrutura governamentais.
 
 O projeto está estruturado nos seguintes passos:
 
-    1. Questão de negocio
+    1. Questão de negócio
     2. Premissas do projeto
     3. Planejamento da solução e os produtos propostos
-    4. Insights obtidos com os dados - modelo de machine learning
-    5. Análise e resultados obtidos - modelo de machine learning
+    4. Insights obtidos com os dados - modelo de machine learning (Finalizado)
+    5. Análise e resultados obtidos - modelo de machine learning (Finalizado)
     6. Insights obtidos com os dados - Dashboard
     7. Análise e resultados obtidos - Dashboard
     8. Conclusão do projeto de portfólio
@@ -22,7 +22,7 @@ O projeto está estruturado nos seguintes passos:
 
 O governo do Condado King está interessado em realizar obras de infraestrutura ao longo do seu território, porém não sabe ao certo quais projetos são melhores para as suas cidades. Dentro desse cenário, há diversos tipos de projetos que podem ser executados desde novas ruas, avenidas, parques até complexas intervenções viárias tais como hubs logisticos, monotrilhos, rodovias, trens etc.
 
-Novas obras nas cidades alteram os espaços e consequentemente geram desapropriações de imoveis privados. Qualquer desapropriações é passível de justa indenização conforme o valor de mercado do bem. Sendo assim, qualquer obra tem o seu custo natural de execução, bem como é necessário indenizar todos aqueles que foram desapropriados. A questão do montante dos valores de indenização dos imóveis privados pode inviabilizar a execução de um determinado projeto.
+Novas obras nas cidades alteram os espaços e consequentemente geram desapropriações de imóveis privados. Qualquer desapropriações é passível de justa indenização conforme o valor de mercado do bem. Sendo assim, qualquer obra tem o seu custo natural de execução, bem como é necessário indenizar todos aqueles que foram desapropriados. A questão do montante dos valores de indenização dos imóveis privados pode inviabilizar a execução de um determinado projeto.
 
 ### 1.1 Qual o problema de negócio?
 
@@ -46,9 +46,9 @@ Esse projeto de portfólio foi elaborado utilizado o dataset kc_house_data.csv e
 
 Para construir a solução do segundo objetivo especifico desse projeto utilizaremos a técnica de webscrapy no site xxxx. Nesse processo tentaremos coletar as mesmas 20 variáveis existentes no dataset KC House e assim descartaremos todas as outras variáveis existentes no site xxx que podem ou não ser relevantes na composição do valor de mercado do imóvel. Os preços ofertados no site da imobiliária refletem as condições de mercado na data do webscrapy que ocorreu no ano de 2022.
 
-Acrescenta-se que no processo de solução do segundo objetivo especifico de negocio o modelo calculará o valor predito dos imoveis coletados no site relativos as condições de mercado de 2014 a 2015. Para a aproximação dos resultados atualizaremos esses valores preditos para o ano de 2022 e compararemos com o valor ofertado em 2022.
+Acrescenta-se que no processo de solução do segundo objetivo especifico de negócio o modelo calculará o valor predito dos imóveis coletados no site relativos as condições de mercado de 2014 a 2015. Para a aproximação dos resultados atualizaremos esses valores preditos para o ano de 2022 e compararemos com o valor ofertado em 2022.
 
-Ressalta-se que esse hipotético projeto de portfólio foi elaborado segundo a experiencia do autor e com base nos dados coletados no kaggle e no site xxxx . Não sendo possível atestar sobre a veracidade dos dados do dataset e se os mesmos possuem conexão com o mercado de imóveis de King County no período de 2014 a 2015. Convém mencionar que no site xxxx há muitas outras variaveis que também contribuem na composição e explicação do valor de mercado do imóvel. A atualização dos valores preditos levou em consideração apenas os índices econômicos xxxx. Ressalta-se que não foram analisados outros aspectos que podem influenciar a variação do valor de mercado dentro do periodo de 2015 a 2022.
+Ressalta-se que esse hipotético projeto de portfólio foi elaborado segundo a experiência do autor e com base nos dados coletados no kaggle e no site xxxx . Não sendo possível atestar sobre a veracidade dos dados do dataset e se os mesmos possuem conexão com o mercado de imóveis de King County no período de 2014 a 2015. Convém mencionar que no site xxxx há muitas outras variaveis que também contribuem na composição e explicação do valor de mercado do imóvel. A atualização dos valores preditos levou em consideração apenas os índices econômicos xxxx. Ressalta-se que não foram analisados outros aspectos que podem influenciar a variação do valor de mercado dentro do periodo de 2015 a 2022.
 
 ## 3 Planejamento da solução
 
@@ -63,8 +63,7 @@ Será entregue um dashboard publicado no streamlite com a análise se os preços
 * Python Packages
 * Jupyter notebook
 * Cloud Heroku
-* Cloud Heroku
-* streamlite
+* Streamlit
 * Site xxxx
 
 <table>
@@ -141,7 +140,7 @@ Ao todo a execução da solução do projeto será dividida em 10 passos:
     6. Seleção de variáveis
     7. Machine Learning Modeling
     8. Fine tunining
-    9. Tradução do erro
+    9. Resultados e interpretação dos erros
     10. Deploy do modelo
 
 
@@ -156,24 +155,6 @@ A construção do dashboard será dividido em 7 passos:
   5. Realizar a análise sobre a situação de mercado no condado.
   6. Construir o dasboard no streamlit
   7. Publicar o dashboard em ambiente de nuvem.
-
-
-Criar hipoteses
-		Afirmação
-		comparação
-		Valor base
-
-Qual a diferença media entre os valores de mercado e os valores ofertados em toda cidade?
-
-Em quais zipcodes a diferença no valor de mercado e o valor ofertado foi superior a 30 %?
-
-Imóvel mais antigos possuem diferenças entre os valores de mercado e os ofertados superiores a 30%?
-
-Imóvel mais novos possuem diferenças entre os valores de mercado e os ofertados superiores a 30%?
-
-Metricas ano a ano / mês a mês - curva acumulada mês a mês
-
-
 
 ## 4 Insights obtidos com os dados - modelo de machine learning
 
@@ -227,7 +208,7 @@ preço médio x ano de construção
 
 preço mediano x ano de construção
 
-A hipótese é falsa. A análise apresentou algumas informações que requerem uma investigação maior. Observou-se que os menores valores encontrados foram para os imóveis construídos nos períodos de 1942 a 1944 e 1931 a 1934. Nesses períodos ocorreram fatos de grande relevância mundial, respectivamente segunda grande guerra e crise econômica da bolsa americana. Entretanto, para os imóveis construídos antes de 1931 e os construídos nos períodos de 1936 a 1941 apresentam preços de vendas no mesmo nível dos imóveis com menos de 50 anos de idade.
+A hipótese é falsa. A análise apresentou algumas informações que requerem uma investigação maior. Observou-se que os menores valores encontrados foram para os imóveis construídos nos períodos de 1942 a 1944 e 1931 a 1934. Nesses períodos ocorreram fatos de grande relevância mundial, respectivamente segunda grande guerra e crise econômica da bolsa americana. Entretanto, os imóveis construídos antes de 1931 e os construídos nos períodos de 1936 a 1941 apresentam preços de vendas no mesmo nível dos imóveis com menos de 50 anos de idade.
 
 ***Hipótese 20: Imóveis com idade de construção superior a 50 anos possuem preços / pé quadrado menores.***
 
@@ -245,7 +226,7 @@ Observou-se que essa hipótese é falsa e imóveis mais antigos possuem maiores 
 
 ### 5.1 Análise e resultados obtidos com o modelo
 
-Neste projeto foram utilizados cinco diferentes modelos de machine learning para prever as vendas das lojas com base nos seus respectivos históricos.
+Neste projeto foram utilizados cinco diferentes modelos de machine learning para prever os valores de venda dos imóveis com base nos seus respectivos históricos de comercialização.
 
 * Modelo de média
 * Modelo de Regressão linear
@@ -302,7 +283,7 @@ Observações referente ao imóvel com index 735 do dataset de teste:
 
 * O erro absoluto médio (MAE) do modelo é equivalente a $65.408,17
 
-* O limite inferior para a previsão consiste na previsão ***menos***  MAE, o que corresponde ao valor de venda de $315.115,42
+* O limite inferior para a previsão consiste no valor da previsão ***menos*** o MAE, o que corresponde ao valor de venda de $315.115,42
 
 * O limite superior para a previsão consiste no valor da previsão ***mais*** o MAE do modelo, o que totaliza $445.931,17
 
@@ -342,7 +323,7 @@ O deploy do modelo foi publicado no heroku cloud e a API foi construída usando 
 
 Após o deploy no Heroku qualquer dispositivo/usuário será capaz de obter as previsões dos imóveis via API.
 
-## 6 Conclusão do projeto de portfólio (Conclusão parcial)
+## 6 Conclusão do projeto de portfólio ( ⚠️ Conclusão parcial ⚠️)
 
 ### 6.1 Produto - modelo de machine learning
 Após o desenvolvimento do produto "modelo de machine learning" nesse primeiro ciclo (CRISP-DM), observou-se que o produto proposto como solução do problema de negócio do governo do condado King conseguiu alcançar o objetivo desejado. O modelo de machine learning mostrou-se capaz de prever os valores de vendas dos imóveis existentes no dataset de teste. Ressalta-se que com esse produto de dados, os servidores da administração pública do condado King conseguirão estimar os valores de mercado dos imóveis passíveis de desapropriação sem a necessidade da contratação da empresa de consultoria para avaliar os imóveis. Dessa forma, a nova ferramenta desenvolvida auxiliará o governo do condado e dos municípios a tomarem decisões estratégicas sobre a viabilidade de novos projetos de infraestrutura de forma mais rápida e com um menor custo para os cofres públicos.
