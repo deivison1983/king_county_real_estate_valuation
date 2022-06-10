@@ -3,7 +3,7 @@
 
 ## O projeto ( ⚠️ em andamento - conclusão parcial finalizada ⚠️ )<p id="projeto"></p>
 
-Este projeto fictício que compõe o meu portfólio profissional busca criar uma solução de negocio que auxiliará o governo do condado King, localizado no estado de Washington, USA a tomar melhores decisões relativas ao processo de desapropriação de imóveis que possam serem diretamente impactados por novos projetos de infraestrutura governamentais.
+Este projeto fictício que compõe o meu portfólio profissional busca criar uma solução de negócio que auxiliará o governo do condado King, localizado no estado de Washington, USA a tomar melhores decisões relativas ao processo de desapropriação de imóveis que possam serem diretamente impactados por novos projetos de infraestrutura governamentais.
 
 O projeto está estruturado nos seguintes passos:
 
