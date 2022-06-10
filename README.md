@@ -162,7 +162,7 @@ Um dos objetivos da Análise Exploratória de Dados ( EDA ) é perceber qual o i
 
 ***Abaixo mostramos o mapa mental de hipóteses:***
 
-<p> <img src="images_read/mind_map_1.png"> </p>
+<p> <img src="images_read/mapa_mental_1.png"> </p>
 
 ***Hipótese 9: Imóveis localizados de frente para a água possuem preços maiores.***
 
