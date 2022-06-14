@@ -242,7 +242,7 @@ As métricas utilizadas para avaliar a performances dos modelos foram:
 
 * MAE  - Mean Absolut Error (Erro absoluto médio)
 * MAPE - Mean Absolut Percentage Error (Erro absoluto médio percentual)
-* RMSE - Root Mean Squared Error (Raiz do erro quadrático médio )
+* RMSE - Root Mean Squared Error (Raiz quadrada do erro quadrático médio )
 
 O processo de validação cruzada do nosso problema de negócio dividiu o dataset de treino em 5 folds.
 
