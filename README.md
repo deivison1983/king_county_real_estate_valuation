@@ -1,6 +1,8 @@
 # Projeto Avaliação de imóveis no Condado King, Washington, USA.
 <img src="images_read/kc_house_project.jpg">
 
+# <p>🇺🇸 [English Version](https://github.com/deivison1983/king_county_real_estate_valuation/blob/main/english_version/readme_kc_house_eng.md)</p>
+
 ## O projeto ( ⚠️ em andamento - conclusão parcial finalizada ⚠️ )<p id="projeto"></p>
 
 Este projeto fictício que compõe o meu portfólio profissional busca criar uma solução de negócio que auxiliará o governo do condado King, localizado no estado de Washington, USA a tomar melhores decisões relativas ao processo de desapropriação de imóveis que possam ser diretamente impactados por novos projetos de infraestrutura governamentais.
