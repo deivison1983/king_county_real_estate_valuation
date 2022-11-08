@@ -3,9 +3,9 @@
 
 # <p>🇧🇷 [Versão em Português](https://github.com/deivison1983/king_county_real_estate_valuation)</p>
 
-## Project ( ⚠️ em andamento - conclusão parcial finalizada ⚠️ )<p id="projeto"></p>
+## Project<p id="projeto"></p>
 
-This fictitious project that composes my professional portfolio seeks to create a business solution that will help the government of King County, located in the state of Washington, USA to make better decisions regarding the process of expropriation of properties that can be directly impacted by new projects of government infrastructure.
+This project that composes my professional portfolio seeks to create a business solution that will help the government of King County, located in the state of Washington, USA to make better decisions regarding the process of expropriation of properties that can be directly impacted by new projects of government infrastructure.
 
 The project is structured in the following steps:
 
@@ -325,7 +325,7 @@ Model deploy was published to heroku cloud and the API was built using python's 
 
 After deploying to Heroku any device/user will be able to get real estate forecasts via API.
 
-## 6 Portfolio project Conclusion ( ⚠️ Partial Conclusion ⚠️)
+## 6 Portfolio project Conclusion
 
 ### 6.1 Product - machine learning model
 After the development of the product "machine learning model" in this first cycle (CRISP-DM), it was observed that the product proposed as a solution to the business problem of the King County government managed to achieve the desired objective. The machine learning model proved to be able to predict the sales values of properties in the test dataset. It is noteworthy that with this data product, King County Public Administration servers will be able to estimate the market values of properties subject to expropriation without the need to hire a consulting company to evaluate the properties. In this way, the new tool developed will help the county and municipal government to make strategic decisions about the feasibility of new infrastructure projects more quickly and at a lower cost to the public coffers.
