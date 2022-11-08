@@ -3,17 +3,17 @@
 
 # <p>🇺🇸 [English Version](https://github.com/deivison1983/king_county_real_estate_valuation/blob/main/english_version/readme_kc_house_eng.md)</p>
 
-## O projeto ( ⚠️ em andamento - conclusão parcial finalizada ⚠️ )<p id="projeto"></p>
+## O projeto <p id="projeto"></p>
 
-Este projeto fictício que compõe o meu portfólio profissional busca criar uma solução de negócio que auxiliará o governo do condado King, localizado no estado de Washington, USA a tomar melhores decisões relativas ao processo de desapropriação de imóveis que possam ser diretamente impactados por novos projetos de infraestrutura governamentais.
+Este projeto que compõe o meu portfólio profissional busca criar uma solução de negócio que auxiliará o governo do condado King, localizado no estado de Washington, USA a tomar melhores decisões relativas ao processo de desapropriação de imóveis que possam ser diretamente impactados por novos projetos de infraestrutura governamentais.
 
 O projeto está estruturado nos seguintes passos:
 
     1. Questão de negócio
     2. Premissas do projeto
     3. Planejamento da solução e os produtos propostos
-    4. Insights obtidos com os dados - modelo de machine learning (Finalizado)
-    5. Análise e resultados obtidos - modelo de machine learning (Finalizado)
+    4. Insights obtidos com os dados - modelo de machine learning
+    5. Análise e resultados obtidos - modelo de machine learning
     6. Insights obtidos com os dados - Dashboard
     7. Análise e resultados obtidos - Dashboard
     8. Conclusão do projeto de portfólio
@@ -325,7 +325,7 @@ O deploy do modelo foi publicado no heroku cloud e a API foi construída usando 
 
 Após o deploy no Heroku qualquer dispositivo/usuário será capaz de obter as previsões dos imóveis via API.
 
-## 6 Conclusão do projeto de portfólio ( ⚠️ Conclusão parcial ⚠️)
+## 6 Conclusão do projeto de portfólio
 
 ### 6.1 Produto - modelo de machine learning
 Após o desenvolvimento do produto "modelo de machine learning" nesse primeiro ciclo (CRISP-DM), observou-se que o produto proposto como solução do problema de negócio do governo do condado King conseguiu alcançar o objetivo desejado. O modelo de machine learning mostrou-se capaz de prever os valores de vendas dos imóveis existentes no dataset de teste. Ressalta-se que com esse produto de dados, os servidores da administração pública do condado King conseguirão estimar os valores de mercado dos imóveis passíveis de desapropriação sem a necessidade da contratação da empresa de consultoria para avaliar os imóveis. Dessa forma, a nova ferramenta desenvolvida auxiliará o governo do condado e dos municípios a tomarem decisões estratégicas sobre a viabilidade de novos projetos de infraestrutura de forma mais rápida e com um menor custo para os cofres públicos.
